@@ -4,20 +4,15 @@ import employees.Worker;
 
 public class Company {
     public static void main(String[] args) {
-        Employee[] Employees = new Employee[5];
+        Employee[] employees = new Employee[5];
 
-        Employee[0] = new Employee("Jan Kowalski", 7600);
-        Employee[1] = new Employee("Kamil Noski", 3000);
-        Employee[2] = new Employee("Tadeusz Lej", 4500);
-        Employee[3] = new Employee("Robert Walny", 5000);
-        Employee[4] = new Employee("Krystian Wąski", 6000);
+        employees[0] = new Manager("Jan Kowalski", 50000, 0);
+        employees[1] = new Worker("Kamil Noski", 60000, "CEO");
+        employees[2] = new Employee("Sylwia Poznańska", 55000);
+        employees[3] = new Worker("Tadeusz Lej", 65000, "Sale");
+        employees[4] = new Worker("Krystian Waski", 70000, "Cashier");
 
-        System.out.println("Imię i nazwisko pracownika oraz jego pensja");
-        System.out.println("Employee:" + Employees[3])
-
-        Employees[3].setSalary(9400)
-
-        for (Employee employee : Employees) {
+        for (Employee employee : employees) {
             System.out.println(employee);
         }
     }
