@@ -16,6 +16,7 @@ public class Worker extends Employee {
         this.position = position;
     }
     
+    
     public String toString() {
         return "Worker: {" + "Worker'" + getFullName() + '\'' + " Salary " + getSalary() + " Position " + position + '\'' + '}';
     }
