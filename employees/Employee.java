@@ -9,11 +9,11 @@ public class Employee {
         this.salary = salary;
     }
 
-    public String getName() {
+    public String getFullName() {
         return fullName;
     }
 
-    public String salary() {
+    public double getSalary() {
         return salary;
     }
 
@@ -21,7 +21,8 @@ public class Employee {
         this.salary = newSalary;
     }
 
+    
     public String toString() {
-        return 'Employee: ' + fullName + "Salary: " + salary
+        return "Employee: " + fullName + "Salary: " + salary;
     }
 }
