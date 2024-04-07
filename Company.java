@@ -1,5 +1,3 @@
-
-
 public class Company {
     public static void main(String[] args) {
         Employee[] Employees = new Employee[5];
