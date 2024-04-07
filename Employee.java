@@ -11,7 +11,7 @@ public class Employee {
         return fullName;
     }
 
-    public String salary() {
+    public double salary() {
         return salary;
     }
 
@@ -20,6 +20,6 @@ public class Employee {
     }
 
     public String toString() {
-        return 'Employee: ' + fullName + "Salary: " + salary
+        return "Employee: " + fullName + "Salary: " + salary;
     }
 }
